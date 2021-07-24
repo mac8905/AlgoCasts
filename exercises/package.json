@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "reversestring": "jest reversestring/test.js --watch",
+    "reversewords": "jest reversewords/test.js --watch"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "author": "stephen grider",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
