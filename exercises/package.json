@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "reversestring": "jest reversestring/test.js --watch",
-    "reversewords": "jest reversewords/test.js --watch"
+    "reversewords": "jest reversewords/test.js --watch",
+    "beautifulstring": "jest beautiful_string/test.js --watch"
   },
   "jest": {
     "testEnvironment": "node"
